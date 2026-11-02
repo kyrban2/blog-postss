@@ -67,13 +67,12 @@ body {
 	line-height: 1.5;
 }
 
-.card-readmore {
+a.card-readmore {
 	display: inline-block;
 	font-weight: 400;
 	font-size: 20px;
 	padding-bottom: 20px;
 	text-decoration: underline;
-
 	color: #0277b9;
 }
 /*----- Кнопка ----*/
