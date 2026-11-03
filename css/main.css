@@ -13,7 +13,6 @@ body {
 	margin: 0 auto;
 }
 
-
 /*------ Секция ------*/
 .section {
 	padding: 90px 0;
@@ -25,6 +24,7 @@ body {
 }
 .section-products {
 	display: flex;
+
 	flex-wrap: wrap;
 	margin-bottom: 50px;
 	column-gap: 30px;
@@ -32,6 +32,7 @@ body {
 }
 .section-button-wrapper {
 	text-align: center;
+	
 }
 /* Заголовок */
 .title {
@@ -50,17 +51,21 @@ body {
 	width: 270px;
 	text-align: center;
 	background: #fff;
-	border: 1px solid #c1d1d4;
+	
 }
 .card-image {
-	margin-bottom: 20px;
+	
+}
+.card-content {
+	border: 1px solid #c1d1d4;
+	padding: 20px 10px;
 }
 .card-title {
 	font-family: 'Playfair Display', serif;
 	font-size: 22px;
 	margin-bottom: 15px;
 }
-.card-subtitle {
+.card-description {
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 20px;
 	font-size: 14px;
@@ -71,7 +76,6 @@ a.card-readmore {
 	display: inline-block;
 	font-weight: 400;
 	font-size: 20px;
-	padding-bottom: 20px;
 	text-decoration: underline;
 	color: #0277b9;
 }
